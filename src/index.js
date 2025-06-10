@@ -5,3 +5,5 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration'; //defa
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
+serviceWorkerRegistration.register();
